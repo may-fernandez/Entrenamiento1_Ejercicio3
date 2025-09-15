@@ -50,8 +50,14 @@ main{
 }
 
 .item-recetas a{
+    display: flex;
     text-decoration: none;
     color: #0e0e0e;
     font-size: 1.1em;
+    transition: all 0.2s ease;
+}
 
+.item-recetas a:hover{
+    color: #c6820c;
+    transform: translate(1em);
 }
